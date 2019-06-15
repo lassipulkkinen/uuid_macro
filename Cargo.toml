@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "uuid_macro",
+    "uuid_macro_impl",
+]

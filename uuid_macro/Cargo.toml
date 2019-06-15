@@ -1,0 +1,17 @@
+[package]
+name = "uuid_macro"
+version = "0.1.0"
+edition = "2018"
+description = "Generate UUIDs at compile time."
+readme = "../README.md"
+license = "MIT"
+authors = ["Lassi Pulkkinen <lassi.s.pulkkinen@gmail.com>"]
+repository = "https://github.com/lassipulkkinen/uuid_macro"
+
+[dependencies]
+proc-macro-hack = "0.5.7"
+uuid_macro_impl = "0.1.0"
+
+[dependencies.uuid]
+version = "0.7.4"
+features = ["v4"]

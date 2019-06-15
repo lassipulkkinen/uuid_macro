@@ -1,0 +1,18 @@
+[package]
+name = "uuid_macro_impl"
+version = "0.1.0"
+license = "MIT"
+authors = ["Lassi Pulkkinen <lassi.s.pulkkinen@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/lassipulkkinen/uuid_macro"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.6.12"
+proc-macro-hack = "0.5.7"
+
+[dependencies.uuid]
+version = "0.7.4"
+features = ["v4"]
