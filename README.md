@@ -1,10 +1,8 @@
 uuid\_macro
 ===========
 
-[![Crates.io](https://img.shields.io/crates/v/uuid_macro.svg)]
-    (https://crates.io/crates/uuid_macro)
-[![Docs.rs](https://docs.rs/uuid_macro/badge.svg)]
-    (https://docs.rs/uuid_macro)
+[![Crates.io](https://img.shields.io/crates/v/uuid_macro.svg)](https://crates.io/crates/uuid_macro)
+[![Docs.rs](https://docs.rs/uuid_macro/badge.svg)](https://docs.rs/uuid_macro)
 ![License](https://img.shields.io/crates/l/uuid_macro.svg)
 
 Generate UUIDs at compile time.
