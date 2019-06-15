@@ -1,5 +1,6 @@
 [package]
 name = "uuid_macro_impl"
+description = "See uuid_macro"
 version = "0.1.0"
 license = "MIT"
 authors = ["Lassi Pulkkinen <lassi.s.pulkkinen@gmail.com>"]

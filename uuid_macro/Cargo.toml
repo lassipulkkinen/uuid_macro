@@ -10,7 +10,10 @@ repository = "https://github.com/lassipulkkinen/uuid_macro"
 
 [dependencies]
 proc-macro-hack = "0.5.7"
-uuid_macro_impl = "0.1.0"
+
+[dependencies.uuid_macro_impl]
+version = "0.1.0"
+path = "../uuid_macro_impl"
 
 [dependencies.uuid]
 version = "0.7.4"
